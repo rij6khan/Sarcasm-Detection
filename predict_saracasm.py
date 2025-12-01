@@ -7,9 +7,15 @@ import numpy as np
 import pandas as pd
 import matplotlib as plt
 
-#getting info about datasets (size, label distribution, etc.)
-def getInfo(dataset):
+#cleaning up data
+def clean_data(dataset): 
     pass
+
+
+#getting info about datasets (size, label distribution, etc.)
+def get_information(dataset):
+    pass
+
 
 #creating model of our choice
 
