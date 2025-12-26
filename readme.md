@@ -1,21 +1,30 @@
-## CS 461 - Final Project
+## Rutgers CS 461 – Final Project
 
-Project Members:
-Rija Khan (rk1047)
-Kelly Xu (nx27)
+This project explores sarcasm detection using both neural and classical machine learning approaches. We evaluate a GloVe-based BiLSTM model and compare it against a TF-IDF + Linear SVM baseline.
 
-Contents of this project:
-* experiments: the 2 models that were created for experimentation
-  * glove+BiLSTM: the neural network model tested
-  * TF-IDF+linearSVM: the linear SVM model tested
-* models: model weights loaded to predict_sarcasm.py
-* predict_sarcasm.py: sarcasm prediction file that makes predictions and runs analysis on the test.csv file given
-* readme.txt: this file
-* report.pdf: our report
-* requirements.txt: all required libraries/dependencies needed to run the file
-* test.csv: the CSV file provided for testing
+### Project Members
+* Rija Khan
+* Kelly Xu
 
+### Project Structure
+- **experiments**: Models created for experimentation
+  - **glove+BiLSTM**: Neural network model
+  - **TF-IDF+linearSVM**: Linear SVM baseline
+- **models**: Saved model weights used by `predict_sarcasm.py`
+- **predict_sarcasm.py**: Runs sarcasm prediction and evaluation on a given CSV file
+- **readme.txt**: This file
+- **report.pdf**: Final project report
+- **requirements.txt**: Required Python dependencies
+- **train.csv**: Training dataset
+- **valid.csv**: Validation dataset
+- **test.csv**: Test dataset
 
-How to run predict_sarcasm.py:
-As the project description says, run the predict_sarcasm.py file with this command in the terminal:
-```python predict_sarcasm.py --input [input CSV file] --output predictions.csv```
+### How to Run `predict_sarcasm.py`
+
+First, install the required dependencies:
+
+```pip install -r requirements.txt```
+
+Then, run the prediction script as described in the project specification:
+
+```python predict_sarcasm.py --input [input_csv_file] --output predictions.csv```
