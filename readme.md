@@ -1,4 +1,5 @@
 ## Rutgers CS 461 – Final Project
+## Sarcasm Detection
 
 This project explores sarcasm detection using both neural and classical machine learning approaches. We evaluate a GloVe-based BiLSTM model and compare it against a TF-IDF + Linear SVM baseline.
 
